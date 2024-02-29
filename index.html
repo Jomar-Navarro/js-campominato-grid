@@ -17,7 +17,13 @@
       </div>
 
       <div class="right">
-        <button>Play</button>
+        <label for="level">Choose a level:</label>
+        <select name="level" id="level">
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+        <button class="btn">Play</button>
       </div>
     </div>
   </header>
@@ -25,34 +31,16 @@
   <main>
     <div class="main-wrapper d-flex justify-content-center">
       <div class="grid-container d-flex flex-wrap align-items-center my-5">
-        <div class="square">x</div>
-        <div class="square">x</div>
-        <div class="square">x</div>
-        <div class="square">x</div>
-        <div class="square">x</div>
-        <div class="square">x</div>
-        <div class="square">x</div>
-        <div class="square">x</div>
-        <div class="square">x</div>
-        <div class="square">x</div>
-        <div class="square">x</div>
-        <div class="square">x</div>
-        <div class="square">x</div>
-        <div class="square">x</div>
-        <div class="square">x</div>
-        <div class="square">x</div>
-        <div class="square">x</div>
-        <div class="square">x</div>
-        <div class="square">x</div>
+        <div class="square clicked">x</div>
       </div>
       
     </div>
   </main>
 
-  <footer>
-    <p>
+  <footer class="d-flex align-items-center">
+    <div class="mx-3" >
       Made with &hearts; by <a href="#">Boolean</a>
-    </p>
+    </div>
   </footer>
 
   <script src="js/script.js"></script>

@@ -23,21 +23,40 @@
 ************************/
 .main-wrapper{
   background-color: #7fffd4;
-  height: 80vh;
 }
 
 .grid-container{
-  background-color: maroon;
   width: 800px;
   aspect-ratio: 1;
+  flex-grow: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .square{
   width: 80px;
   height: 80px;
   border: 1px solid black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+
+.square.clicked{
+  background-color: blue;
+}
 /************************ 
-        MAIN
+          MAIN
 ************************/
+
+/************************ 
+        FOOOTER
+************************/
+
+footer{
+  height: 5vh;
+}
+
