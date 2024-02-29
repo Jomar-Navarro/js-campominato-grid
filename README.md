@@ -22,4 +22,5 @@ Aggiungere una select accanto al bottone di generazione, che fornisca una scelta
 3.  Creo un evento click per il quale mi crea la griglia celle;
 4.  Creo una funzione per con all'interno un ciclo;
 5.  Creo una funzione in cui mi crea un div con un classe 'square';
-6.  
+6.  Creo un evento che al click delle singole celle se non c'é la classe 'clicked' il numero e la il colore non vengono mostrati;
+7. Aggiungo un toggle per farsí che cliccando il bottone una secona volta tolgo o aggiungo la classe 'clicked.
