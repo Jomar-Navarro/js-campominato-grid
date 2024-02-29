@@ -24,16 +24,11 @@ btnPlay.addEventListener('click', function() {
         const sq = document.createElement('div');
         sq.className = 'square';
         sq._sqID = indice;
+
+        sq.innerHTML = sq._sqID;
         
         sq.addEventListener('click', function(){
           console.log(this._sqID);
-          
-          const numero = this._sqID;
-          
-          this.innerHTML =  (!this.classList.contains('clicked'))
-                      ? this.innerHTML = numero
-                      : this.innerHTML = '';
-
           this.classList.toggle('clicked');
         })
         
